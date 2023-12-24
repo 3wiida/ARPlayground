@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AR Playground</string>
+    <string name="model_image">Model Image</string>
+</resources>
