@@ -38,8 +38,8 @@ Available on MediaFire Store and soon also on Google Play.
 
 - Model the 3D objects in the surrounding
 - Ability to change the model place
-- Ancore the model in spacific place and detach ancore
-- Resize the model by guestures
+- Anchor the model in specific place and detach anchor
+- Resize the model by gestures
 - Rotate the model by 360 degrees
 - Change between 6 animals models
 
