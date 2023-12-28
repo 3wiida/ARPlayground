@@ -70,8 +70,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ARPlaygroundTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background,
+                    modifier = Modifier.fillMaxSize()
                 ) {
                     MainScreenContent(
                         models = viewModel.getModelsList()
@@ -91,6 +90,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 
     @Composable
     fun MainScreenContent(
@@ -125,7 +125,9 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    fun ARScreen(model: ModelItem) {
+    fun ARScreen(
+        model: ModelItem
+    ) {
 
         ARScene(
             modifier = Modifier.fillMaxSize(),
